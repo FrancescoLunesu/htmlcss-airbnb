@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+/* definisco i tre container contenenti le tre immagini */
+.container1{
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/15/19/05/shibuyasky-4768679_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: 5px solid whitesmoke;bq1
+}
+
+.container2{
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2019/12/05/05/50/san-francisco-4674350_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: 5px solid whitesmoke;
+}
+
+.container3{
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/29/09/28/graffiti-745071_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: 5px solid whitesmoke;
+}
+/*proprietà overlay */
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/*proprietà titoli delle immagini */
+span{
+    font-size: 4em;
+    color: #e6cc33;
+}
+
+.container1 .titolo1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container2 .titolo2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container3 .titolo3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
